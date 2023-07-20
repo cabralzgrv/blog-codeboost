@@ -1,9 +1,9 @@
 {
-  "name": "codeboost-gulp",
+  "name": "yarn",
   "version": "1.0.0",
   "description": "Um projeto criado par ao codeboost",
   "main": "index.js",
-  "author": "William Moreira",
+  "author": "Lucas Cabral",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -16,5 +16,6 @@
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.44.0"
-  }
+  },
+  "repository": "https://github.com/cabralzgrv/blog-codeboost.git"
 }
