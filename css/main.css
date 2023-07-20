@@ -1,0 +1,129 @@
+:root {
+  --pink: #F67ACB;
+  --purple: #5B1FA6;
+  --gray-scale-01: #050110;
+  --gray-scale-02: #0F0C1B;
+  --gray-scale-03: #3F3D49;
+  --gray-scale-04: #57555F;
+  --gray-scale-05: #9995A6;
+  --gray-scale-06: #ACB4BF;
+}
+
+@font-face {
+  font-family: "Atyp BL Text";
+  src: url("../fonts/AtypBLText-Regular.woff2") format("woff2"), url("../fonts/AtypBLText-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atyp BL Text";
+  src: url("../fonts/AtypBLText-Medium.woff2") format("woff2"), url("../fonts/AtypBLText-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atyp BL Text";
+  src: url("../fonts/AtypBLText-Bold.woff2") format("woff2"), url("../fonts/AtypBLText-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Atyp BL Text";
+  src: url("../fonts/AtypBLText-Semibold.woff2") format("woff2"), url("../fonts/AtypBLText-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Atyp BL Text", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 124.6rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.8rem;
+}
+
+a {
+  font-size: 1.8rem;
+  font-family: 600;
+  color: var(--purple);
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+ul {
+  font-size: 1.8rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--gray-scale-01);
+}
+
+p, ul {
+  font-family: 400;
+  color: var(--gray-scale-03);
+}
