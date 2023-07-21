@@ -660,6 +660,107 @@ header nav ul li:not(:first-child) {
   margin-left: 6.4rem;
 }
 
+footer {
+  padding-top: 8rem;
+  padding-bottom: 6.3rem;
+  position: relative;
+}
+footer:before {
+  content: "";
+  width: 100%;
+  max-width: 121.6rem;
+  height: 2px;
+  background: url("../img/line-footer.svg") no-repeat center center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -60.8rem;
+}
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+footer .container .left-footer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 82.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+footer .container .left-footer strong {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+footer .container .left-footer p {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 8.4rem;
+}
+footer .container .right-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+footer .container .right-footer .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 7.1rem;
+}
+footer .container .right-footer .group span {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  margin-right: 1.6rem;
+}
+footer .container .right-footer button {
+  height: 3.7rem;
+  width: 3.7rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+}
+footer .container .right-footer button:hover {
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+}
+
 .s-hero-post {
   padding-top: 8.3rem;
   padding-bottom: 11.7rem;
