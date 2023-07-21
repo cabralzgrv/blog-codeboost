@@ -712,3 +712,45 @@ header nav ul li:not(:first-child) {
   bottom: 0;
   left: 0;
 }
+
+.s-artigos {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(85.69%, #0F0C1B), to(rgba(15, 12, 27, 0)));
+  background: linear-gradient(180deg, #0F0C1B 85.69%, rgba(15, 12, 27, 0) 100%);
+  padding-top: 11.7rem;
+  padding-bottom: 12rem;
+  border-bottom: 2px solid #1C162E;
+}
+.s-artigos .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.s-artigos .top p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--gray-scale-06);
+}
+.s-artigos .top p img {
+  margin-left: 1.6rem;
+}
+.s-artigos .all {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 32px;
+  margin-bottom: 8rem;
+}
+.s-artigos .btn-primary {
+  display: block;
+  margin: auto;
+}
