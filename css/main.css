@@ -620,6 +620,7 @@ header {
   background-color: rgba(15, 12, 27, 0.5);
   -webkit-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
+  z-index: 2023;
 }
 header .container {
   display: -webkit-box;

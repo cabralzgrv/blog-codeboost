@@ -7,6 +7,7 @@ header {
     align-items: center;
     background-color: rgba(15, 12, 27, 0.5);
     backdrop-filter: blur(40px);
+    z-index: 2023;
     .container {
         display: flex;
         align-items: center;
