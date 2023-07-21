@@ -9,7 +9,8 @@
         "ignore": [
           "-ms-touch-action",
           "scrollbar-width",
-          "backdrop-filter"
+          "backdrop-filter",
+          "scale"
         ]
       }
     ]
