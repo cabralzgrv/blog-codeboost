@@ -985,3 +985,172 @@ footer .container .right-footer button:hover {
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
+
+.s-detalhes-post {
+  position: relative;
+  background-color: #FFFFFF;
+  padding-top: 4.8rem;
+  padding-bottom: 12rem;
+}
+.s-detalhes-post:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #050110;
+  width: 100%;
+  height: 34.8rem;
+  z-index: 0;
+}
+.s-detalhes-post .top-details {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.s-detalhes-post .top-details .breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.s-detalhes-post .top-details .breadcrumbs li {
+  position: relative;
+}
+.s-detalhes-post .top-details .breadcrumbs li:after {
+  content: "";
+  position: absolute;
+  top: 0.4rem;
+  right: -25px;
+  width: 10px;
+  height: 10px;
+  background: url("../img/arrow-breadcrumb.svg") no-repeat center center;
+}
+.s-detalhes-post .top-details .breadcrumbs li:last-child:after {
+  display: none;
+}
+.s-detalhes-post .top-details .breadcrumbs li:not(:first-child) {
+  margin-left: 4rem;
+}
+.s-detalhes-post .top-details .breadcrumbs li a {
+  display: block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 105%;
+  color: var(--gray-scale-05);
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.s-detalhes-post .top-details .breadcrumbs li a:hover {
+  color: #FFFFFF;
+}
+.s-detalhes-post .top-details .breadcrumbs li span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 105%;
+  color: #FFFFFF;
+}
+.s-detalhes-post .top-details .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: #FFFFFF;
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+}
+.s-detalhes-post .top-details .btn:hover {
+  -webkit-filter: brightness(0.6);
+  filter: brightness(0.6);
+}
+.s-detalhes-post .top-details .btn img {
+  margin-right: 1.4rem;
+}
+.s-detalhes-post .featured-info-post {
+  position: relative;
+  z-index: 1;
+  margin-top: 4.8rem;
+  margin-bottom: 8rem;
+}
+.s-detalhes-post .featured-info-post .image {
+  width: 100%;
+  height: 47.2rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+.s-detalhes-post .featured-info-post .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.s-detalhes-post .featured-info-post .box-info-post {
+  position: relative;
+  z-index: 1;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 24px 40px -8px rgba(16, 12, 28, 0.06);
+  box-shadow: 0px 24px 40px -8px rgba(16, 12, 28, 0.06);
+  border-radius: 0.8rem;
+  width: 100%;
+  max-width: 100.8rem;
+  padding: 4.8rem 72px;
+  margin: 0 auto;
+  margin-top: -10.6rem;
+}
+.s-detalhes-post .featured-info-post .box-info-post h1 {
+  color: #050110;
+  margin-top: 2rem;
+  margin-bottom: 2.8rem;
+}
+.s-detalhes-post .featured-info-post .box-info-post ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.s-detalhes-post .featured-info-post .box-info-post ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.s-detalhes-post .featured-info-post .box-info-post ul li:not(:first-child) {
+  margin-left: 2.4rem;
+}
+.s-detalhes-post .featured-info-post .box-info-post ul li:not(:first-child):before {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: #9995A6;
+  opacity: 0.3;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 2.4rem;
+}
+.s-detalhes-post .featured-info-post .box-info-post ul li span {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: var(--gray-scale-04);
+  margin-left: 0.8rem;
+}
