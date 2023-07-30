@@ -32,6 +32,14 @@ a {
     display: inline-block;
 }
 
-h1 {
-    font-size: 4rem;
+section {
+    @media(max-width:1200px) {
+        padding: 60px 0;
+    }
+    @media(max-width:768px) {
+        padding: 50px 0;
+    }
+    @media(max-width:560px) {
+        padding: 40px 0;
+    }
 }
