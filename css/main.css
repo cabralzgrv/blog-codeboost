@@ -970,7 +970,6 @@ footer .container .right-footer button:hover {
   padding-top: 11.7rem;
   padding-bottom: 12rem;
   border-bottom: 2px solid #1C162E;
-  display: none;
 }
 .s-artigos .top {
   display: -webkit-box;
@@ -1005,6 +1004,40 @@ footer .container .right-footer button:hover {
 .s-artigos .btn-primary {
   display: block;
   margin: auto;
+}
+@media (max-width: 1150px) {
+  .s-artigos .all {
+    grid-gap: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .s-artigos .all {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .s-artigos .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .s-artigos .top h2 {
+    margin-bottom: 2rem;
+  }
+  .s-artigos .all {
+    grid-template-columns: 1fr;
+    grid-gap: 3.2rem;
+  }
+  .s-artigos button {
+    width: 100%;
+    padding: 2.5rem 0rem;
+    font-size: 19px;
+  }
 }
 
 .s-podcast {
