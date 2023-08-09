@@ -34,12 +34,12 @@ a {
 
 section {
     @media(max-width:1200px) {
-        padding: 60px 0;
+        padding: 60px 0px !important;
     }
     @media(max-width:768px) {
-        padding: 50px 0;
+        padding: 50px 0px !important;
     }
     @media(max-width:560px) {
-        padding: 40px 0;
+        padding: 40px 0px !important;
     }
 }
